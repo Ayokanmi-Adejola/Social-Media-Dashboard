@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+  <main class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-text">
+          <h1 class="title">Social Media Dashboard</h1>
+          <p class="subtitle">Total Followers: 23,004</p>
+        </div>
+        <div class="theme-toggle">
+          <span class="toggle-label">Dark Mode</span>
+          <button class="toggle-switch" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="toggle-slider"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Social Media Cards -->
+    <section class="social-cards">
+      <!-- Facebook Card -->
+      <div class="social-card facebook">
+        <div class="social-header">
+          <img src="./images/icon-facebook.svg" alt="Facebook" class="social-icon">
+          <span class="username">@Ayokanmi Adejola</span>
+        </div>
+        <div class="follower-count">1987</div>
+        <div class="follower-label">FOLLOWERS</div>
+        <div class="daily-change positive">
+          <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+          <span>12 Today</span>
+        </div>
+      </div>
+
+      <!-- Twitter Card -->
+      <div class="social-card twitter">
+        <div class="social-header">
+          <img src="./images/icon-twitter.svg" alt="Twitter" class="social-icon">
+          <span class="username">@Ayokanmi Adejola</span>
+        </div>
+        <div class="follower-count">1044</div>
+        <div class="follower-label">FOLLOWERS</div>
+        <div class="daily-change negative">
+          <img src="./images/icon-down.svg" alt="Down arrow" class="arrow-icon">
+          <span>99 Today</span>
+        </div>
+      </div>
+
+      <!-- Instagram Card -->
+      <div class="social-card instagram">
+        <div class="social-header">
+          <img src="./images/icon-instagram.svg" alt="Instagram" class="social-icon">
+          <span class="username">@Ayokanmi Adejola</span>
+        </div>
+        <div class="follower-count">11k</div>
+        <div class="follower-label">FOLLOWERS</div>
+        <div class="daily-change positive">
+          <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+          <span>1099 Today</span>
+        </div>
+      </div>
+
+      <!-- YouTube Card -->
+      <div class="social-card youtube">
+        <div class="social-header">
+          <img src="./images/icon-youtube.svg" alt="YouTube" class="social-icon">
+          <span class="username">Ayokanmi Adejola</span>
+        </div>
+        <div class="follower-count">8239</div>
+        <div class="follower-label">SUBSCRIBERS</div>
+        <div class="daily-change negative">
+          <img src="./images/icon-down.svg" alt="Down arrow" class="arrow-icon">
+          <span>144 Today</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview">
+      <h2 class="overview-title">Overview - Today</h2>
+      <div class="overview-cards">
+        <!-- Facebook Page Views -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Page Views</span>
+            <img src="./images/icon-facebook.svg" alt="Facebook" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">87</div>
+            <div class="metric-change positive">
+              <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+              <span>3%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facebook Likes -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Likes</span>
+            <img src="./images/icon-facebook.svg" alt="Facebook" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">52</div>
+            <div class="metric-change negative">
+              <img src="./images/icon-down.svg" alt="Down arrow" class="arrow-icon">
+              <span>2%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram Likes -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Likes</span>
+            <img src="./images/icon-instagram.svg" alt="Instagram" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">5462</div>
+            <div class="metric-change positive">
+              <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+              <span>2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram Profile Views -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Profile Views</span>
+            <img src="./images/icon-instagram.svg" alt="Instagram" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">52k</div>
+            <div class="metric-change positive">
+              <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+              <span>1375%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Twitter Retweets -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Retweets</span>
+            <img src="./images/icon-twitter.svg" alt="Twitter" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">117</div>
+            <div class="metric-change positive">
+              <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Twitter Likes -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Likes</span>
+            <img src="./images/icon-twitter.svg" alt="Twitter" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">507</div>
+            <div class="metric-change positive">
+              <img src="./images/icon-up.svg" alt="Up arrow" class="arrow-icon">
+              <span>553%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- YouTube Likes -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Likes</span>
+            <img src="./images/icon-youtube.svg" alt="YouTube" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">107</div>
+            <div class="metric-change negative">
+              <img src="./images/icon-down.svg" alt="Down arrow" class="arrow-icon">
+              <span>19%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- YouTube Total Views -->
+        <div class="overview-card">
+          <div class="overview-header">
+            <span class="metric-name">Total Views</span>
+            <img src="./images/icon-youtube.svg" alt="YouTube" class="metric-icon">
+          </div>
+          <div class="overview-stats">
+            <div class="metric-value">1407</div>
+            <div class="metric-change negative">
+              <img src="./images/icon-down.svg" alt="Down arrow" class="arrow-icon">
+              <span>12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayokanmi Adejola</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
