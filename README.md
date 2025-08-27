@@ -98,8 +98,3 @@ social-media-dashboard-with-theme-switcher/
 - **Font Family**: Inter (Google Fonts)
 - **Font Weights**: 400 (Regular), 700 (Bold)
 - **Overview Card Headings**: 14px
-
-## Author
-
-- Frontend Mentor - [@Ayokanmi-Adejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
-
